@@ -1,0 +1,29 @@
+{
+  "name": "novaworks-crm-backend",
+  "version": "1.0.0",
+  "description": "Backend for the NovaWorks AI Meeting-to-Project CRM (Infinity Hack '26)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "setup": "npm run db:migrate && npm run seed",
+    "reset": "node scripts/reset.js",
+    "seed:sample": "node scripts/seed-sample.js",
+    "test:access": "node scripts/test-access.js",
+    "test:ai": "node scripts/test-ai.js"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  }
+}

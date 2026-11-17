@@ -1,0 +1,45 @@
+Meeting: NovaWorks November Delivery Planning
+Date: 3 November 2026 | Scheduled duration: 45 minutes
+Participants: Ayesha, Bilal, Hina, Ali, Hamza, Sara, Usman, Zain, Maryam
+
+10:00-10:05 | Opening
+Ayesha: Morning everyone. Three new clients this month: PakRail Travels, MediTrack Clinics, and LegalLens Associates. Keep them as three separate projects, one per client.
+Hina: Same rules as last time. Estimates are developer effort in hours, and every task needs one owner from our team.
+
+10:05-10:12 | PakRail Booking Portal
+Ayesha: First project is PakRail Booking Portal, for client PakRail Travels. I'll manage it. Customers search trains, pick a seat, and reserve it. The client first asked for 25 November.
+Ali: Do they want online card payments and SMS ticket alerts?
+Ayesha: No. Payment happens at the station counter for this phase, and SMS alerts are future work. Don't create tasks for payments or SMS.
+Ali: Then I'll own Seat search UI: train search, seat map, and reservation form. 10 hours, due 18 November.
+Hamza: I'll own Booking APIs for trains, seats, and reservations. I said 12 hours earlier, but seat locking is trickier than I thought. Make the final estimate 15 hours, due 20 November.
+Ayesha: Accepted, 15 hours. For Portal integration and testing, Hamza, can you take it? Say 6 hours, due 26 November.
+Hamza: My week is full after the APIs. Ali should own it instead.
+Ali: Fine, I'll own Portal integration and testing. 6 hours, 26 November works.
+Ayesha: Done. Also, PakRail just emailed: the final delivery date moves to 28 November. That replaces 25 November.
+
+10:12-10:20 | MediTrack Mobile App
+Bilal: Second project is MediTrack Mobile App, for client MediTrack Clinics. I'm the manager. Patients book clinic appointments and see their upcoming visits. Project deadline is 30 November.
+Usman: Do we need video consultations or a map to the clinic?
+Bilal: No video calls and no maps in this version. Exclude them.
+Sara: I'll own Appointment booking screens in Flutter: choose clinic, choose time slot, confirm. 14 hours, due 19 November.
+Hamza: I'll also own Clinic and appointment APIs here. 10 hours, due 22 November. Keep it separate from my PakRail API task.
+Usman: I'll own Mobile integration and testing. 9 hours. I first said 25 November, but I need Hamza's APIs first, so move it to 27 November.
+Bilal: Agreed: Usman, 9 hours, 27 November.
+
+10:20-10:30 | LegalLens Document Summarizer
+Bilal: Third project is LegalLens Document Summarizer, for client LegalLens Associates. I could manage it.
+Hina: It's an AI project, so it should be mine. I'll manage it instead of Bilal.
+Bilal: Makes sense. Hina is the manager.
+Hina: The tool reads uploaded contracts and produces a short plain-language summary. Deadline is 26 November. No e-signature feature and no automatic emailing of summaries.
+Hina: Also, Fatima from LegalLens will send us sample contracts next week. She is the client's paralegal, not a NovaWorks employee, so don't assign her anything.
+Maryam: I'll own Contract text extraction: read PDF contracts and split them into clauses. 12 hours, due 17 November.
+Zain: I'll own Summary generation with the language model. 16 hours, due 21 November.
+Maryam: I'll also own Summary accuracy testing. Put 5 hours.
+Hina: Five is too low for checking long contracts. Make it 7 hours, due 24 November.
+Maryam: Agreed, 7 hours, 24 November.
+
+10:30-10:35 | Final recap
+Ayesha: Final recap. PakRail Booking Portal, client PakRail Travels, manager Ayesha, deadline 28 November. Ali owns Seat search UI: 10 hours, 18 November. Hamza owns Booking APIs: 15 hours, 20 November. Ali owns Portal integration and testing: 6 hours, 26 November.
+Bilal: MediTrack Mobile App, client MediTrack Clinics, manager Bilal, deadline 30 November. Sara owns Appointment booking screens: 14 hours, 19 November. Hamza owns Clinic and appointment APIs: 10 hours, 22 November. Usman owns Mobile integration and testing: 9 hours, 27 November.
+Hina: LegalLens Document Summarizer, client LegalLens Associates, manager Hina, deadline 26 November. Maryam owns Contract text extraction: 12 hours, 17 November. Zain owns Summary generation: 16 hours, 21 November. Maryam owns Summary accuracy testing: 7 hours, 24 November.
+Ayesha: That's three projects and nine tasks. No payments, SMS, video calls, maps, e-signatures or emailing. Thanks everyone.

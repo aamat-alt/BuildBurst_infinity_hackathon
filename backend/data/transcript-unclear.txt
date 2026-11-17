@@ -1,0 +1,10 @@
+Meeting: NovaWorks Quick Sync
+Date: 10 November 2026
+Participants: Ayesha, Ali, Hamza
+
+Ayesha: One small project today: ShopEase Landing Page, for client ShopEase Retail. I'll manage it. Deadline is 25 November.
+Ali: I'll own Landing page UI. 8 hours, due 20 November.
+Hamza: Someone needs to do Contact form API, but I'm not sure I have time. We didn't agree on hours yet either.
+Ayesha: Let's decide the owner and estimate for the contact form next week. Leave it open for now.
+Ayesha: Also, Ali, the Landing page UI must be ready by 28 November at the latest.
+Ali: OK, 28 November for the UI.

@@ -1,0 +1,9 @@
+﻿.env
+.env.*
+!.env.example
+node_modules/
+The Infinity Hack - UOL/
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
